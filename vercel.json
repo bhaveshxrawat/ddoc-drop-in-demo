@@ -1,14 +1,6 @@
 {
-  "$schema": "https://openapi.vercel.sh/vercel.json",
-  "services": {
-    "drop-in": {
-      "root": "drop-in",
-      "framework": "vite"
-    },
-    "latest": {
-      "root": "latest",
-      "framework": "vite"
-    }
-  },
-  "rewrites": []
+  "framework": null,
+  "installCommand": "npm run install:apps",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
 }
