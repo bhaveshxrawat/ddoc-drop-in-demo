@@ -1,0 +1,6 @@
+{
+  "framework": null,
+  "installCommand": "npm run install:apps",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist"
+}

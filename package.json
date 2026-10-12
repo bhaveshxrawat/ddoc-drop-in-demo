@@ -1,0 +1,9 @@
+{
+  "name": "ddoc-drop-in-demo",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "install:apps": "npm ci --prefix latest && npm ci --prefix drop-in",
+    "build": "npm run build --prefix latest -- --base=/latest/ && npm run build --prefix drop-in -- --base=/drop-in/ && node scripts/assemble.mjs"
+  }
+}

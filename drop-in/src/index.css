@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* The only host CSS: give the page a height. No overflow or reset tricks. */
+html,
+body,
+#root {
+  height: 100%;
+}
